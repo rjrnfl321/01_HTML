@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  margin: 0;
+  margin: auto;
   flex-direction: column;
 
 
@@ -80,4 +80,31 @@ main {
      위치를 지정해야한다 */
   top: -70px;
   z-index: 100;
+}
+
+.test1 {
+  background-color: red;
+  margin-top: 95.555px;
+
+}
+
+.test2 {
+  background-color: yellow;
+  margin-top: 95.555px;
+
+}
+
+.test3 {
+  background-color: blue;
+  margin-top: 95.555px;
+
+}
+
+.box {
+  width: 500px;
+  height: 450px;
+  color: white;
+  border: 1px solid black;
+  box-sizing: content-box;
+  text-align: center;
 }
